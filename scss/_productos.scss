@@ -1,0 +1,33 @@
+@import "variables";
+
+/* PRODUCTOS */
+
+.card {
+    border: solid .1rem;
+    width: 30rem;
+    padding: 1rem;
+    margin: 1rem 1rem 1rem 2rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color: grey;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.cards-inicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    background-color: $color-primario;
+    color: $color-secundario;
+    border-color: grey;
+
+    &:hover {
+        color: black;
+    }
+}
+

@@ -1,0 +1,35 @@
+/* MEDIAS */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+
+    }
+
+    .color-nav {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .map {
+        width: 200px;
+        height: 200px;
+    }
+
+    .color-nav {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .p-nosotros{
+        font-size: 1.5rem;
+    }
+    .casilla {
+        max-width: 85%;
+    }
+}
+
+

@@ -1,0 +1,21 @@
+/* UBICACIÓN */
+
+.map {
+    margin: 1rem;
+}
+
+.ubicacion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-ubicacion {
+    margin-bottom: 10rem;
+}
+
+.col p {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+}

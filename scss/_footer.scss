@@ -1,0 +1,21 @@
+@import "mixins";
+@import "variables";
+
+/* FOOTER */
+
+footer {
+    background-color: $color-primario;
+    padding: 3rem;
+    font-size: 1.5rem;
+    color: $color-secundario;
+    text-align: center;
+    margin-top: 8rem;
+    font-family: 'Roboto', sans-serif;
+    @include flexbox-column;
+}
+
+.social-medias {
+    
+    padding-left: 20px;
+    @include flexbox-row;
+}
